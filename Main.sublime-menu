@@ -18,21 +18,22 @@
                             {
                                 "command": "open_file",
                                 "args": {
-                                    "file": "${packages}/TidyTabs-Sublime/TidyTabs.sublime-settings"
+                                    "file": "${packages}/TidyTabs/TidyTabs.sublime-settings"
                                 },
                                 "caption": "Settings – Default"
                             },
                             {
                                 "command": "open_file",
                                 "args": {
-                                    "file": "${packages}/User/TidyTabs.sublime-settings" 
+                                    "file": "${packages}/User/TidyTabs.sublime-settings"
                                 },
-                                "caption": "Setting - User"
+                                "caption": "Settings – User"
                             },
+                            { "caption": "-" },
                             {
                                 "command": "open_file",
                                 "args": {
-                                    "file": "${packages}/TidyTabs-Sublime/Default (Windows).sublime-keymap",
+                                    "file": "${packages}/TidyTabs/Default (Windows).sublime-keymap",
                                     "platform": "Windows"
                                 },
                                 "caption": "Key Bindings – Default"
@@ -40,7 +41,7 @@
                             {
                                 "command": "open_file",
                                 "args": {
-                                    "file": "${packages}/TidyTabs-Sublime/Default (OSX).sublime-keymap",
+                                    "file": "${packages}/TidyTabs/Default (OSX).sublime-keymap",
                                     "platform": "OSX"
                                 },
                                 "caption": "Key Bindings – Default"
@@ -48,36 +49,35 @@
                             {
                                 "command": "open_file",
                                 "args": {
-                                    "file": "${packages}/TidyTabs-Sublime/Default (Linux).sublime-keymap",
+                                    "file": "${packages}/TidyTabs/Default (Linux).sublime-keymap",
                                     "platform": "Linux"
                                 },
                                 "caption": "Key Bindings – Default"
                             },
                             {
-                                "command": "open_file",
-                                "args": {
-                                    "file": "${packages}/User/Default (Windows).sublime-keymap",
-                                    "platform": "Windows"
-                                },
-                                "caption": "Key Bindings – User"
-                            },
-                            {
-                                "command": "open_file",
-                                "args": {
-                                    "file": "${packages}/User/Default (OSX).sublime-keymap",
-                                    "platform": "OSX"
-                                },
-                            "caption": "Key Bindings – User"
-                            },
-                            {
-                                "command": "open_file",
-                                "args": {
-                                    "file": "${packages}/User/Default (Linux).sublime-keymap",
-                                    "platform": "Linux"
-                                },
-                                "caption": "Key Bindings – User"
-                            },
-                            { "caption": "-" }
+                                 "command": "open_file",
+                                 "args": {
+                                     "file": "${packages}/User/Default (OSX).sublime-keymap",
+                                     "platform": "OSX"
+                                 },
+                                 "caption": "Key Bindings – User"
+                             },
+                             {
+                                 "command": "open_file",
+                                 "args": {
+                                     "file": "${packages}/User/Default (Linux).sublime-keymap",
+                                     "platform": "Linux"
+                                 },
+                                 "caption": "Key Bindings – User"
+                             },
+                             {
+                                 "command": "open_file",
+                                 "args": {
+                                     "file": "${packages}/User/Default (Windows).sublime-keymap",
+                                     "platform": "Windows"
+                                 },
+                                 "caption": "Key Bindings – User"
+                             },
                         ]
                     }
                 ]
